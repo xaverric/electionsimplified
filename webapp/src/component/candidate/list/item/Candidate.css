@@ -1,0 +1,33 @@
+.candidateCard {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+.candidateCardBorder:hover {
+    background-color: #F8F9FA;
+}
+
+@media (max-width: 1200px) {
+    .candidateCard {
+        width: 25%;
+    }
+}
+
+@media (max-width: 800px) {
+    .candidateCard {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .candidateCard {
+        width: 100%;
+    }
+}
+
+.candidateCardBorder {
+    border: 1px solid #c8c9ca;
+    border-radius: 5px;
+    padding: 20px;
+}

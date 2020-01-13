@@ -1,0 +1,15 @@
+.parties-navbar-item {
+    flex:auto;
+    text-align: center;
+    float:left;
+    padding: 10px;
+}
+
+.nav-pills .nav-link {
+    background-color: #F8F9FA;
+}
+
+.nav-pills .nav-link:hover  {
+    color: #fff;
+    background-color: rgba(0, 132, 255, 0.74);
+}
